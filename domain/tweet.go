@@ -5,8 +5,6 @@ import (
 	"meliGo/user"
 )
 
-//var lastId int
-
 type Tweet struct {
 	User *user.User
 	Text string
@@ -14,12 +12,12 @@ type Tweet struct {
 	Id int
 }
 
-func NewTweet(user, text string) *Tweet {
+func NewTweet(user user.User, text string) *Tweet {
 
 	date := time.Now()
 
 	tweet := Tweet{
-		User: user,
+		User: &user,
 		Text: text,
 		Date: &date,
 	}

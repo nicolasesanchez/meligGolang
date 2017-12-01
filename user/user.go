@@ -7,6 +7,14 @@ type User struct {
 	Pass string
 }
 
-func NewUser() {
+func NewUser(name, mail, nick, pass string) *User {
 
+	user := User {
+		Name: name,
+		Mail: mail,
+		Nick: nick,
+		Pass: pass,
+		}
+
+	return &user
 }
