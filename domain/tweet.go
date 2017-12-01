@@ -2,7 +2,8 @@ package domain
 
 import (
 	"time"
-	"meliGo/user"
+	"github.com/meligGolang/user"
+	"fmt"
 )
 
 //var lastId int
@@ -27,5 +28,12 @@ func NewTweet(user, text string) *Tweet {
 	return &tweet
 }
 
+func (tweet *Tweet) PritableTweet() string{
+	return fmt.Sprintf("%s  :  %s"; tweet.User , tweet.Text )
+}
+
+func (tweet * Tweet) String() string {
+
+}
 
 

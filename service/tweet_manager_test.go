@@ -2,8 +2,8 @@ package service_test
 
 import (
 	"testing"
-	"meliGo/service"
-	"meliGo/domain"
+	"github.com/meligGolang/service"
+	"github.com/meligGolang/domain"
 )
 
 func TestPublishedTweetIsSaved(t *testing.T) {

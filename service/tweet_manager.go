@@ -1,8 +1,9 @@
 package service
 
 import (
-	"meliGo/domain"
+	"github.com/meligGolang/domain"
 	"fmt"
+	"go/ast"
 )
 
 type TweetManager struct {
@@ -91,6 +92,12 @@ func (manager *TweetManager) CountTweetsByUser(user string) int {
 func (manager *TweetManager) GetTweetsByUser(user string) []*domain.Tweet {
 
 	return manager.tweetsByUser[user]
+}
+
+func  (manager *TweetManager) DeleteTweet(id int) string  {
+	tweet := manager.GetTweetById(id)
+
+
 }
 
 
