@@ -2,7 +2,7 @@ package domain
 
 import (
 	"time"
-	"github.com/meligGolang/user"
+	"github.com/meligGolang/tweet_user"
 	"fmt"
 )
 

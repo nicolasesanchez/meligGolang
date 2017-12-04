@@ -4,6 +4,8 @@ import (
 	"github.com/meligGolang/domain"
 	"fmt"
 	"go/ast"
+	"github.com/meligGolang/tweet_user"
+	
 )
 
 type TweetManager struct {
@@ -23,7 +25,7 @@ func NewTweetManager() *TweetManager {
 	return tweetManager
 }
 
-func registredUser(user *user.User) boolean {
+func registredUser(user *user.User) bool {
 	found := false
 	i := 0
 	for !found {
@@ -112,6 +114,8 @@ func (manager *TweetManager) GetTweetsByUser(user string) []*domain.Tweet {
 
 func  (manager *TweetManager) DeleteTweet(id int) string  {
 	tweet := manager.GetTweetById(id)
+
+
 
 
 }

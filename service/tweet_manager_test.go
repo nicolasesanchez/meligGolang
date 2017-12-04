@@ -4,6 +4,7 @@ import (
 	"testing"
 	"github.com/meligGolang/service"
 	"github.com/meligGolang/domain"
+	"github.com/meligGolang/tweet_user"
 )
 
 func TestPublishedTweetIsSaved(t *testing.T) {
