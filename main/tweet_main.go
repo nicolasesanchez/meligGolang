@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/meligGolang/service"
-	"github.com/meligGolang/tweet_user"
-	"github.com/meligGolang/domain"
+	"meliGo/service"
+	"meliGo/tweet_user"
+	"meliGo/domain"
 	"fmt"
 )
 

@@ -7,18 +7,18 @@ import (
 )
 
 type Tweet struct {
-	User *tweet_user.User
+	User *user.User
 	Text string
 	Date *time.Time
-	Id   int
+	Id int
 }
 
-func NewTweet(user *tweet_user.User, text string) *Tweet {
+func NewTweet(user user.User, text string) *Tweet {
 
 	date := time.Now()
 
 	tweet := Tweet{
-		User: user,
+		User: &user,
 		Text: text,
 		Date: &date,
 	}
