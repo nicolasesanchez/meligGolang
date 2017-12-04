@@ -3,9 +3,7 @@ package service
 import (
 	"github.com/meligGolang/domain"
 	"fmt"
-	"go/ast"
 	"github.com/meligGolang/tweet_user"
-
 	"os/user"
 	"bufio"
 	"os"
@@ -27,18 +25,21 @@ func NewTweetManager() *TweetManager {
 
 	return tweetManager
 }
-
-func registredUser(user *user.User) bool {
-	found := false
-	i := 0
-	for !found {
-		if users[i].Nick == user.Nick {
-
+func (manager *TweetManager) registeredUser(user *tweet_user.User) bool {
+	var found bool
+	for !found && i < len(manager.users) {
+		if len(manager.users) > 0 {
+			if manager.users[i].Nick == user.Nick || manager.users[i].Mail == user.Mail {
+				found = true
+			} else {
+				i++
+			}
+		} else {
+			break
 		}
 	}
 	return found
 }
-
 func (manager *TweetManager) PublishTweet(tweetToPublish *domain.Tweet) (int, error) {
 
 	if tweetToPublish.User == nil {
