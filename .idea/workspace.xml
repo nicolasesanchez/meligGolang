@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77bb7f2-0893-40a8-afbe-86c088cd6935" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/main/tweet_main.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/domain/tweet.go" afterPath="$PROJECT_DIR$/domain/tweet.go" />
       <change beforePath="$PROJECT_DIR$/service/tweet_manager.go" afterPath="$PROJECT_DIR$/service/tweet_manager.go" />
       <change beforePath="$PROJECT_DIR$/service/tweet_manager_test.go" afterPath="$PROJECT_DIR$/service/tweet_manager_test.go" />
-      <change beforePath="$PROJECT_DIR$/user/user.go" afterPath="$PROJECT_DIR$/user/user.go" />
+      <change beforePath="$PROJECT_DIR$/tweet_user/user.go" afterPath="$PROJECT_DIR$/tweet_user/user.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,62 +21,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tweet_manager_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/tweet_manager_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-              <folding>
-                <element signature="e#22#93#0" expanded="true" />
-                <element signature="n#!!block;n#TestTweetWithoutUserIsNotPublished#0" expanded="false" />
-                <element signature="n#!!block;n#TestTweetWithoutTextIsNotPublished#0" expanded="false" />
-                <element signature="n#!!block;n#TestTweetWhichExceeding140CharactersIsNotPublished#0" expanded="false" />
-                <element signature="n#!!block;n#TestCanPublishAndRetrieveMoreThanOneTweet#0" expanded="false" />
-                <element signature="n#!!block;n#TestCanRetrieveTweetById#0" expanded="false" />
-                <element signature="n#!!block;n#TestCanCountTheTweetsSentByAnUser#0" expanded="false" />
-                <element signature="n#!!block;n#TestCanRetrieveTheTweetsSentByAnUser#0" expanded="false" />
-                <element signature="n#!!block;n#isValidTweet#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tweet.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/domain/tweet.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding>
-                <element signature="e#16#49#0" expanded="true" />
+                <element signature="e#16#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweet_manager.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tweet_manager.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/tweet_manager.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="355">
+              <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
               <folding>
-                <element signature="e#17#66#0" expanded="true" />
+                <element signature="e#17#87#0" expanded="true" />
+                <element signature="e#107#221#0" expanded="false" />
                 <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+                <element signature="e#938#991#0" expanded="false" />
+                <element signature="e#1023#1070#0" expanded="false" />
+                <element signature="e#1107#1165#0" expanded="false" />
+                <element signature="e#1348#1405#0" expanded="false" />
                 <element signature="n#!!block;n#GetTweet#0" expanded="false" />
                 <element signature="n#!!block;n#GetTweets#0" expanded="false" />
                 <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-                <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+                <element signature="e#1965#2086#0" expanded="false" />
+                <element signature="e#2039#2067#0" expanded="false" />
+                <element signature="e#2105#2292#0" expanded="false" />
                 <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+                <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+                <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+                <element signature="e#2729#2757#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/user.go">
+      <file leaf-file-name="tweet_main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/tweet_main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="160">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,10 +94,12 @@
         <option value="$PROJECT_DIR$/domain/maing.go" />
         <option value="$PROJECT_DIR$/domain/main.go" />
         <option value="$PROJECT_DIR$/maing/main.go" />
-        <option value="$PROJECT_DIR$/domain/tweet.go" />
-        <option value="$PROJECT_DIR$/service/tweet_manager_test.go" />
         <option value="$PROJECT_DIR$/user/user.go" />
+        <option value="$PROJECT_DIR$/service/tweet_manager_test.go" />
+        <option value="$PROJECT_DIR$/tweet_user/user.go" />
+        <option value="$PROJECT_DIR$/domain/tweet.go" />
         <option value="$PROJECT_DIR$/service/tweet_manager.go" />
+        <option value="$PROJECT_DIR$/main/tweet_main.go" />
       </list>
     </option>
   </component>
@@ -133,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,23 +145,23 @@
             <path>
               <item name="meliGo" type="b2602c69:ProjectViewProjectNode" />
               <item name="meliGo" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meliGo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meliGo" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meliGo" type="b2602c69:ProjectViewProjectNode" />
               <item name="meliGo" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meliGo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="tweet_user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,13 +189,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestPublishedTweetIsSaved in tweet_manager_test.go">
+  <component name="RunManager" selected="Go Build.go build tweet_main.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="meliGo" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/maing/main.go" />
+      <package value="meliGo" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build tweet_main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="meliGo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/tweet_main.go" />
       <package value="meliGo" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
@@ -229,18 +235,20 @@
       <package value="meliGo/service" />
       <pattern value="^TestTweetWithoutTextIsNotPublished$" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Test.TestTweetWithoutTextIsNotPublished in tweet_manager_test.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Test.TestAsdad in tweet_manager_test.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Test.TestPublishedTweetIsSaved in tweet_manager_test.go" />
       <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build tweet_main.go" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestPublishedTweetIsSaved in tweet_manager_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestTweetWithoutTextIsNotPublished in tweet_manager_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestAsdad in tweet_manager_test.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build tweet_main.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestPublishedTweetIsSaved in tweet_manager_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestTweetWithoutTextIsNotPublished in tweet_manager_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestAsdad in tweet_manager_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -286,12 +294,11 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17124394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17609046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.261348" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.261348" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -304,6 +311,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -315,17 +323,82 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/domain/maing.go" />
+    <entry file="file://$PROJECT_DIR$/domain/main.go" />
+    <entry file="file://$PROJECT_DIR$/maing/main.go" />
+    <entry file="file://$PROJECT_DIR$/tweet_user/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/tweet_manager_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#99#0" expanded="false" />
+            <element signature="n#!!block;n#TestTweetWithoutUserIsNotPublished#0" expanded="false" />
+            <element signature="n#!!block;n#TestTweetWithoutTextIsNotPublished#0" expanded="false" />
+            <element signature="n#!!block;n#TestTweetWhichExceeding140CharactersIsNotPublished#0" expanded="false" />
+            <element signature="n#!!block;n#TestCanPublishAndRetrieveMoreThanOneTweet#0" expanded="false" />
+            <element signature="n#!!block;n#TestCanRetrieveTweetById#0" expanded="false" />
+            <element signature="n#!!block;n#TestCanCountTheTweetsSentByAnUser#0" expanded="false" />
+            <element signature="n#!!block;n#TestCanRetrieveTheTweetsSentByAnUser#0" expanded="false" />
+            <element signature="n#!!block;n#isValidTweet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/tweet_manager.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
+            <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
+            <element signature="n#!!block;n#GetTweet#0" expanded="false" />
+            <element signature="n#!!block;n#GetTweets#0" expanded="false" />
+            <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
+            <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/tweet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/tweet_manager_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#22#93#0" expanded="true" />
+            <element signature="e#22#99#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutUserIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutTextIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWhichExceeding140CharactersIsNotPublished#0" expanded="false" />
@@ -343,18 +416,28 @@
         <state relative-caret-position="390">
           <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user.go">
+    <entry file="file://$PROJECT_DIR$/tweet_user/user.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -367,7 +450,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -377,7 +460,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#22#93#0" expanded="true" />
+            <element signature="e#22#99#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutUserIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutTextIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWhichExceeding140CharactersIsNotPublished#0" expanded="false" />
@@ -395,18 +478,28 @@
         <state relative-caret-position="390">
           <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user.go">
+    <entry file="file://$PROJECT_DIR$/tweet_user/user.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -419,7 +512,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -429,7 +522,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#22#93#0" expanded="true" />
+            <element signature="e#22#99#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutUserIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutTextIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWhichExceeding140CharactersIsNotPublished#0" expanded="false" />
@@ -447,7 +540,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -457,13 +550,23 @@
         <state relative-caret-position="210">
           <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -473,7 +576,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,13 +586,23 @@
         <state relative-caret-position="525">
           <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -499,7 +612,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,13 +622,23 @@
         <state relative-caret-position="480">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,7 +648,7 @@
         <state relative-caret-position="2460">
           <caret line="164" column="3" lean-forward="false" selection-start-line="164" selection-start-column="3" selection-end-line="164" selection-end-column="3" />
           <folding>
-            <element signature="e#22#93#0" expanded="true" />
+            <element signature="e#22#99#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutUserIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutTextIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWhichExceeding140CharactersIsNotPublished#0" expanded="false" />
@@ -544,7 +667,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,13 +677,23 @@
         <state relative-caret-position="480">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -571,7 +704,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -581,13 +714,23 @@
         <state relative-caret-position="480">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -598,7 +741,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16#49#0" expanded="true" />
+            <element signature="e#16#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,13 +751,23 @@
         <state relative-caret-position="540">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,30 +776,20 @@
     <entry file="file://$PROJECT_DIR$/domain/maing.go" />
     <entry file="file://$PROJECT_DIR$/domain/main.go" />
     <entry file="file://$PROJECT_DIR$/maing/main.go" />
-    <entry file="file://$PROJECT_DIR$/user/user.go">
+    <entry file="file://$PROJECT_DIR$/domain/user.go" />
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/tweet.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="e#16#49#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="576" column="0" lean-forward="false" selection-start-line="576" selection-start-column="0" selection-end-line="576" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/tweet_manager_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="15">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
-            <element signature="e#22#93#0" expanded="true" />
+            <element signature="e#22#99#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutUserIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWithoutTextIsNotPublished#0" expanded="false" />
             <element signature="n#!!block;n#TestTweetWhichExceeding140CharactersIsNotPublished#0" expanded="false" />
@@ -659,18 +802,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tweet_user/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sync/mutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/debug.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sync/atomic/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/atomic_pointer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/sync/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="4535" column="0" lean-forward="false" selection-start-line="4535" selection-start-column="0" selection-end-line="4535" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/fmt/scan.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/tweet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#16#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/tweet_manager.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="355">
+          <caret line="158" column="38" lean-forward="false" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="38" />
           <folding>
-            <element signature="e#17#66#0" expanded="true" />
+            <element signature="e#17#87#0" expanded="true" />
+            <element signature="e#107#221#0" expanded="false" />
             <element signature="n#!!block;n#NewTweetManager#0" expanded="false" />
+            <element signature="e#938#991#0" expanded="false" />
+            <element signature="e#1023#1070#0" expanded="false" />
+            <element signature="e#1107#1165#0" expanded="false" />
+            <element signature="e#1348#1405#0" expanded="false" />
             <element signature="n#!!block;n#GetTweet#0" expanded="false" />
             <element signature="n#!!block;n#GetTweets#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetById#0" expanded="false" />
-            <element signature="n#!!block;n#CountTweetsByUser#0" expanded="false" />
+            <element signature="e#1965#2086#0" expanded="false" />
+            <element signature="e#2039#2067#0" expanded="false" />
+            <element signature="e#2105#2292#0" expanded="false" />
             <element signature="n#!!block;n#GetTweetsByUser#0" expanded="false" />
+            <element signature="n#!!block;n#RegisterUser#0" expanded="false" />
+            <element signature="n#!!block;n#GetUsers#0" expanded="false" />
+            <element signature="e#2729#2757#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/tweet_main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#87#0" expanded="true" />
           </folding>
         </state>
       </provider>

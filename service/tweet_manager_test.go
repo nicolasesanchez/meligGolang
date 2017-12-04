@@ -4,7 +4,7 @@ import (
 	"testing"
 	"meliGo/service"
 	"meliGo/domain"
-	"meliGo/user"
+	"meliGo/tweet_user"
 )
 
 func TestPublishedTweetIsSaved(t *testing.T) {
@@ -13,9 +13,9 @@ func TestPublishedTweetIsSaved(t *testing.T) {
 	tweetManager := service.NewTweetManager()
 
 	var tweet *domain.Tweet
-	var user *user.User
+	var user *tweet_user.User
 
-	user = user.NewUser("grupoesfera","grupoesfera@asd.com","grupoesfera","asd123")
+	user = tweet_user.NewUser("grupoesfera","grupoesfera@asd.com","grupoesfera","asd123")
 
 	text := "This is my first tweet"
 
@@ -47,8 +47,8 @@ func TestTweetWithoutUserIsNotPublished(t *testing.T) {
 	_, err = tweetManager.PublishTweet(tweet)
 
 	// Validation
-	if err != nil && err.Error() != "user is required" {
-		t.Error("Expected error is user is required")
+	if err != nil && err.Error() != "tweet_user is required" {
+		t.Error("Expected error is tweet_user is required")
 	}
 }
 

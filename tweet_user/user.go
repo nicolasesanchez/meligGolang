@@ -1,20 +1,17 @@
-package user
+package tweet_user
 
 type User struct {
-	Name string
-	Mail string
-	Nick string
-	Pass string
+	Name, Mail, Nick, Pass string
 }
 
 func NewUser(name, mail, nick, pass string) *User {
 
-	user := User {
-		Name: name,
-		Mail: mail,
-		Nick: nick,
-		Pass: pass,
-		}
+	user := User{
+		name,
+		mail,
+		nick,
+		pass,
+	}
 
 	return &user
 }
