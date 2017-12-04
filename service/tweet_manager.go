@@ -7,6 +7,7 @@ import (
 )
 
 type TweetManager struct {
+	users []*user.User
 	tweets       []*domain.Tweet
 	tweetsByUser map[string][]*domain.Tweet
 }
@@ -15,17 +16,29 @@ func NewTweetManager() *TweetManager {
 
 	tweetManager := new(TweetManager)
 
+	tweetManager.users = make([]*user.User, 0)
 	tweetManager.tweets = make([]*domain.Tweet, 0)
 	tweetManager.tweetsByUser = make(map[string][]*domain.Tweet)
 
 	return tweetManager
 }
 
+func registredUser(user *user.User) boolean {
+	found := false
+	i := 0
+	for !found {
+		if users[i].Nick == user.Nick {
+
+		}
+	}
+	return found
+}
+
 func (manager *TweetManager) PublishTweet(tweetToPublish *domain.Tweet) (int, error) {
 
-	/*if tweetToPublish.User == "" {
+	if tweetToPublish.User == nil {
 		return 0, fmt.Errorf("user is required")
-	}*/
+	}
 
 	if tweetToPublish.Text == "" {
 		return 0, fmt.Errorf("text is required")
@@ -35,12 +48,15 @@ func (manager *TweetManager) PublishTweet(tweetToPublish *domain.Tweet) (int, er
 		return 0, fmt.Errorf("text exceeds 140 characters")
 	}
 
+	if registredUser(tweetToPublish.User) {
+		manager.users = append(manager.users, tweetToPublish.User)
+	}
 	manager.tweets = append(manager.tweets, tweetToPublish)
 
 	tweetToPublish.Id = len(manager.tweets)
 
-	userTweets := manager.tweetsByUser[tweetToPublish.User]
-	manager.tweetsByUser[tweetToPublish.User] = append(userTweets, tweetToPublish)
+	//userTweets := manager.tweetsByUser[tweetToPublish.User]
+	//manager.tweetsByUser[tweetToPublish.User] = append(userTweets, tweetToPublish)
 
 	return tweetToPublish.Id, nil
 }
